@@ -3,10 +3,10 @@ from datetime import datetime
 import logging
 import shutil  
 
-caminho = Path(r"c:\Users\Caio\Desktop\pasta")
-destino_copias = Path(r'c:\Users\Caio\Desktop\oi')
+caminho = Path(r"/home/valcann/backupsFrom")
+destino_copias = Path(r'/home/valcann/backupsTo')
 logging.basicConfig(level=logging.INFO,
-                     filename='backupsFrom.log', 
+                     filename='/home/valcann/backupsFrom.log', 
                      filemode='w')
 
 def transformar_byte(tamanho):
