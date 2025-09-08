@@ -13,7 +13,7 @@
 * ### Redundância de processos.
 
 # Causas:
-* ### Todos os requisitos têm que ser prescritos manualmente.
+* ### Todos os requisitos e bibliotecas têm que ser prescritos e empacotados manualmente.
 * ### Excesso de códigos, tanto em variedade quanto em quantidade.
 * ### Todas as funcionalidades precisam ser repetidamente testadas na homologação a cada deploy.
 * ### Repete-se o mesmo processo cansativo para duas **fases** (homologação e produção).
