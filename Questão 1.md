@@ -18,8 +18,8 @@
 
 # Índices
 * ### Índice de ordem decrescente na coluna "Data" da tabela Histórico (Q2 e Q3)
-    Com um índice de ordem decrescente na coluna de data, o banco de dados poderá acessar com muito mais velocidade os estados, tanto em um intervalo — pois as datas consecutivas ficarão próximas umas das outras — quanto em uma data/hora específica, já que ele saberá, dentro de suas tabelas de índice, em qual "ordem de grandeza" procurar e, portanto, encontrará o grupo da data de forma mais assertiva.
+    Com um índice de ordem decrescente na coluna de data, o banco de dados poderá acessar com muito mais velocidade os estados, tanto em um intervalo — pois as datas consecutivas ficarão próximas umas das outras — quanto em uma data/hora específica, já que ele saberá, dentro de suas tabelas de índice, em qual "ordem de grandeza" procurar e, portanto, encontrará o grupo da data de forma mais assertiva.Além disso a ordem decrescente favorece a busca por datas mais recentes.
 * ### Índice (ok/alarm) de Estado na coluna "Estado" do controles (Q1)
     Facilitará significativamente o monitoramento, pois será mais rápido verificar quais parâmetros estão fora do padrão, para fins de correção ou avaliação. 
-* ### Índice de ordem alfabética nos Controles na coluna "Nome"(Q1,Q2,Q3)
+* ### Índice crescente ou decrescente na coluna "Id" dos controles(Q1,Q2,Q3)
     Ajudará caso o cliente deseje consultar um controle específico, permitindo obter seus dados de maneira mais rápida.Também acelerará processos de ordenação e exibição.
